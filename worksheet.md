@@ -28,7 +28,7 @@ You're going to be working in the terminal for the duration of this resource, so
 
 	```bash
 	git config --global user.name "Harry Potter"
-	git config --global user.email "h.potter@hogworts.prof"
+	git config --global user.email "h.potter@hogwarts.prof"
 	```
 
 1. Next you need to tell Git which text editor you want to use. If you don't have any particularly strong feelings about text editors then you can just type:
