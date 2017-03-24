@@ -47,7 +47,7 @@ So you want to start a new project; maybe it's a special ultrasonic range finder
 	mkdir snitch-sniffer
 	```
 
-n1. Now you want to go into that directory. You can used the `change directory` command to do this.
+1. Now you want to go into that directory. You can used the `change directory` command to do this.
 
 	```bash
 	cd snitch-sniffer
@@ -213,7 +213,7 @@ git commit -am 'restore find function'
 
 ## Making major changes
 
-Imagine you're talking to your friend about your amazing project, and they have a really cool idea for some changes you could make to improve it. Your friend suggests using lidar rather than ultrasonic sensors. The changes are quite large though, and you're worried that if you make them, you might break the project. You could make a copy of the directory and start working on this copy, but to keep using Git you'd have to make an entirely new rep. This could all get quite confusing. Luckily Git has a feature called `branches` that allow you to make copies without losing or altering your original work.
+Imagine you're talking to your friend about your amazing project, and they have a really cool idea for some changes you could make to improve it. Your friend suggests using [lidar](https://en.wikipedia.org/wiki/Lidar) rather than ultrasonic sensors. The changes are quite large though, and you're worried that if you make them, you might break the project. You could make a copy of the directory and start working on this copy, but to keep using Git you'd have to make an entirely new rep. This could all get quite confusing. Luckily Git has a feature called `branches` that allow you to make copies without losing or altering your original work.
 
 1. First, you can have a look at your repo's current status.
 
@@ -241,7 +241,7 @@ Imagine you're talking to your friend about your amazing project, and they have 
 	nothing to commit, working directory clean
 	```
 
-  telling you that you are on the `lidar-version` branch. To view all the branches you can type `git branch` which will show something like:
+	telling you that you are on the `lidar-version` branch. To view all the branches you can type `git branch` which will show something like:
 
   ```bash
   * lidar-version

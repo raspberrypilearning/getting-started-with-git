@@ -1,7 +1,10 @@
-By creating a something with your Raspberry Pi you will learn:
+In this resource you will learn:
 
-- How to set up a Raspberry Pi camera
-- How to use GPIO pins
-- How to create a circuit on a breadboard
-- Controlling GPIO pins with Python code
-- Controlling the camera module with Python code
+- How to manage your projects using Git
+- How to use GitHub to store remove versions of your projects
+- How to collaborate on Open Source Software and projects using GitHub
+
+This resource covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](https://www.raspberrypi.org/curriculum/):
+
+- [Collaborate on digital making projects with other community members](https://www.raspberrypi.org/curriculum/community-and-sharing/builder)
+

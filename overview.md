@@ -1,1 +1,1 @@
-In this resource you will make a something do a something so that your something can do something and use something to control the something.
+In this resource you will learn how to use the Git version control software to help work on your own projects and contribute to Open Source projects.
