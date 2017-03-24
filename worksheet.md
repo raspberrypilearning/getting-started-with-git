@@ -6,7 +6,7 @@ Git is a version control system (VCS) for tracking changes to files and coordina
 
 One way to think about Git, is to imagine a magical school bag. You can pull books out of your bag and do some work anytime you like. Once you've finished you homework, you can put the books back into your school bag, and the bag remembers what changes you made to all the books inside it.
 
-What's even better is that this school bag can be sychronised with another magical school bag that lives in the clouds. Anytime you like, you can tell the bag to copy the contents of all the books to the sky-bag. If you lose your own school bag, you don't have to worry, as you can just get a new one and grab all the books and writing from the sky-bag.
+What's even better is that this school bag can be synchronised with another magical school bag that lives in the clouds. Anytime you like, you can tell the bag to copy the contents of all the books to the sky-bag. If you lose your own school bag, you don't have to worry, as you can just get a new one and grab all the books and writing from the sky-bag.
 
 That's not all though. All your friends at school also have magical school bags. They also keep their bags synchronised with the sky-bag. This means that you and your friends can all work on the homework together. If a friend has a better answer to a Science question than you do, you can copy their answer from the sky-bag to your book.
 
@@ -14,7 +14,7 @@ It gets better than that though. Your teacher also has a magical school bag. Whe
 
 ## Getting Git.
 
-If you're working on a Raspberry Pi, then congratulations, Git is already installed by default in Raspbian. If you're using MacOS, then you can follow [this quick guide]() to installing git and then return here to learn how to use it. If you're on Windows, then we have a [special guide just for you here](). Lastly, if you're on Linux, and dont' have git installed, then you can just use your package manager to grab the software. Something like this should work:
+If you're working on a Raspberry Pi, then congratulations, Git is already installed by default in Raspbian. If you're using MacOS, then you can follow [this quick guide]() to installing git and then return here to learn how to use it. If you're on Windows, then we have a [special guide just for you here](). Lastly, if you're on Linux, and don't' have git installed, then you can just use your package manager to grab the software. Something like this should work:
 
 ```bash
 sudo apt install git
@@ -87,7 +87,7 @@ n1. Now you want to go into that directory. You can used the `change directory` 
 	ls -a
 	```
 
-1. You should now see something like this in your teminal:
+1. You should now see something like this in your terminal:
 
 	```bash
 	.  ..  .git  README.md
@@ -140,7 +140,7 @@ branches  config  description  HEAD  hooks  info  objects  refs
 		new file:   README.md
 	```
 
-1. The above response is telling you that the `README.md` file has not yet been **comitted**. This means that although Git knows about the file, it doesn't yet have any of the file's contents stored. The simplest way to do a commit is by typing:
+1. The above response is telling you that the `README.md` file has not yet been **committed**. This means that although Git knows about the file, it doesn't yet have any of the file's contents stored. The simplest way to do a commit is by typing:
 
 	```bash
 	git commit -am 'add README.md`
@@ -156,7 +156,7 @@ branches  config  description  HEAD  hooks  info  objects  refs
 	README.md  quidditch-rules.json  snitch-sniffer.py
 	```
 
-1. The new files need adding to the git repo and then commiting.
+1. The new files need adding to the git repo and then committing.
 
 	```bash
 	git add --all
@@ -169,7 +169,7 @@ branches  config  description  HEAD  hooks  info  objects  refs
 	git commit -am 'finish find function`
 	```
 
-1. Now imagine that you've made a horible mistake. You've been working for awhile and you've deleted your `find_snitch()` function, adn then performed a commit. With Git, it's easy to go back in time and restore an earlier version of any of your files. Let's first look at the commit history of the file.
+1. Now imagine that you've made a horrible mistake. You've been working for awhile and you've deleted your `find_snitch()` function, and then performed a commit. With Git, it's easy to go back in time and restore an earlier version of any of your files. Let's first look at the commit history of the file.
 
 	```bash
 	git log snitch-sniffer.py
@@ -213,7 +213,7 @@ git commit -am 'restore find function'
 
 ## Making major changes
 
-Imagine you're talking to your friend about your amazing project, and they have a really cool idea for some changes you could make to improve it. Your friend suggests using lidar rather than ultrasonics. The changes are quite large though, and you're worried that if you make them, you might break the project. You could make a copy of the directory and start working on this copy, but to keep using Git you'd have to make an entriely new rep. This could all get quite confusing. Luckily Git has a feature called `branches` that allow you to make copies without losing or altering your original work.
+Imagine you're talking to your friend about your amazing project, and they have a really cool idea for some changes you could make to improve it. Your friend suggests using lidar rather than ultrasonic sensors. The changes are quite large though, and you're worried that if you make them, you might break the project. You could make a copy of the directory and start working on this copy, but to keep using Git you'd have to make an entirely new rep. This could all get quite confusing. Luckily Git has a feature called `branches` that allow you to make copies without losing or altering your original work.
 
 1. First, you can have a look at your repo's current status.
 
@@ -250,7 +250,7 @@ Imagine you're talking to your friend about your amazing project, and they have 
 
 1. So you can now work on the `lidar-version` without altering you `master` branch. Once you've finished trying out the new version, if it doesn't work then you can just delete the branch using `git branch -D lidar-version` However, if it all works well, you can merge the branch back into your `master`
 
-1. First you'll need to make sure all your changes are commited and then switch back to the `master` branch.
+1. First you'll need to make sure all your changes are committed and then switch back to the `master` branch.
 
 	```bash
 	git checkout master
@@ -270,41 +270,41 @@ There are lots of services that will host your Git repo for you, free of charge.
 
 1. The first thing to do is to register for an account on [GitHub](https://github.com/join?source=header-home), and just choose the free plan.
 
-![](images/gh-reg.png)
+	![](images/gh-reg.png)
 
 1. Now that you have an account, you can create a `snitch-sniffer` repo on GitHub. Find the `New repository` button and click it.
 
-![](images/new-repo.png)
+	![](images/new-repo.png)
 
 1. Give the repo a name and a description and click on the `Create repository` button
 
-![](images/new-repo2.png)
+	![](images/new-repo2.png)
 
 1. This should then bring up a page of instructions
 
-![](images/instructions.png)
+	![](images/instructions.png)
 
 1. As you already have a repo, ready to push to GitHub, then all you need to do is make sure you are in your project directory and type:
 
-```bash
-git remote add origin git@github.com:HarryPotter/snitch-sniffer.git
-```
+	```bash
+	git remote add origin git@github.com:HarryPotter/snitch-sniffer.git
+	```
 
-and then
+	and then
 
-```bash
-git push -u origin master
-```
+	```bash
+	git push -u origin master
+	```
 
 1. If you look on GitHub, you should now be able to see your repo, along with the displayed `README.md` file that you wrote.
 
-![](images/gh-repo.png)
+	![](images/gh-repo.png)
 
 1. Anytime you make changes to your project, and want to push them up to GitHub you can just type:
 
-```bash
-git push origin master
-```
+	```bash
+	git push origin master
+	```
 
 or if you are working on a different branch you would type:
 
@@ -314,9 +314,9 @@ git push origin <branch-name>
 
 ## Collaborative working
 
-The true power of service like GitHub are apparant when you start working with other people. GitHub lets other people make their own copies of your projects, or you to make copies of theirs. Either of you can then make improvements to the project and then push the improvements up to GitHub for everyone to share.
+The true power of service like GitHub are apparent when you start working with other people. GitHub lets other people make their own copies of your projects, or you to make copies of theirs. Either of you can then make improvements to the project and then push the improvements up to GitHub for everyone to share.
 
-This resource is itself a GitHub repo. You can find it at [https://github.com/raspberrypilearning/getting-started-with-git](https://github.com/raspberrypilearning/getting-started-with-git). That means that if you found a mistake in the resource, or if you just wanted to make some imporvements, you can. There are two main ways to get involved with other peoples projects - using Issues and using Pull Requests.
+This resource is itself a GitHub repo. You can find it at [https://github.com/raspberrypilearning/getting-started-with-git](https://github.com/raspberrypilearning/getting-started-with-git). That means that if you found a mistake in the resource, or if you just wanted to make some improvements, you can. There are two main ways to get involved with other peoples projects - using Issues and using Pull Requests.
 
 ## GitHub Issues
 
@@ -332,15 +332,15 @@ Let's see how you could help fix this type.
 
 1. Now, you want to find the `Issues` tab
 
-![](images/issues.png)
+	![](images/issues.png)
 
 1. You can now create a new issues, and give a description
 
-![](images/issue.png)
+	![](images/issue.png)
 
 1. Once that's completed, the maintainers of the repo will be able to reply to you, and close the issue once it's fixed.
 
-![](images/closed.png)
+	![](images/closed.png)
 
 ## Pull Requests
 
@@ -348,14 +348,36 @@ Issues are lovely, but if you want to help out even more then maintainers of pro
 
 1. On the projects main page, find the `Fork` button, and click it.
 
-![](images/fork.png)
+	![](images/fork.png)
 
-1. You will now have a copy of the repo. You should see a `Clone or download` button. Clicking this will reveal the `uri` of the repo. Now in the terminal you can clone the repo to your computer, using `git clone`
+1. You will now have a copy of the repo. You should see a `Clone or download` button. Clicking this will reveal the `URI` of the repo. Now in the terminal you can clone the repo to your computer, using `git clone`
 
-```bash
-git clone https://github.com/HelpfulUser/getting-started-with-git.git
-```
+	```bash
+	git clone https://github.com/HelpfulUser/getting-started-with-git.git
+	```
 
-1. All the files and directories will now be on your computer. Go ahead and make the changes you want and then commit and push them back up to GitHub, just like you would normally do.
+1. All the files and directories will now be on your computer. Go ahead and make the changes you want and then commit and push them back up to GitHub, just like you would normally do. Here your commit message is particularly important, as it will explain the changes you have made to the original owner.n
 
-1. 
+1. You can now head back over to GitHub. Find the button that says `New pull request`.
+
+	![](images/pull.png)
+
+1. Click the button and then click on the `Create pull request` button.
+
+	![](images/pull2.png)
+
+1. You commit message will be there, but you can change it and even add a more detailed description if you like.
+
+	![](images/pull3.png)
+
+1. Once you're happy, click the `Create pull request` button. The maintainer of the repo will then be able to see your pull request. They can then choose to merge it into their repo, or close it.
+
+![](images/pull4.png)
+
+## What Next?
+
+1. Now that you have an understanding of the way Git and GitHub works, start using it for all your projects.
+
+1. When you create a project, don't forget to tell people about it, and send them links to your GitHub repos. That way they can use your code and maybe even help make it better.
+
+1. Why not find a project that you could help out with on GitHub. You can help improve anything from the code itself, to documentation, to fixing little typos.
