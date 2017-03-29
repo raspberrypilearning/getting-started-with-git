@@ -16,7 +16,7 @@ It gets better than that though. Your teacher also has a magical school bag. Whe
 
 ## Getting Git.
 
-If you're working on a Raspberry Pi, then congratulations, Git is already installed by default in Raspbian. If you're using MacOS, then you can follow [this quick guide]() to installing git and then return here to learn how to use it. If you're on Windows, then we have a [special guide just for you here](). Lastly, if you're on Linux, and don't' have git installed, then you can just use your package manager to grab the software. Something like this should work:
+If you're working on a Raspberry Pi, then congratulations, Git is already installed by default in Raspbian. If you're using MacOS, then you can follow [this quick guide](mac-install.md) to installing git and then return here to learn how to use it. If you're on Windows, then we have a follow [this guide to install git shell](windows-install.md). Lastly, if you're on Linux, and don't' have git installed, then you can just use your package manager to grab the software. Something like this should work:
 
 ```bash
 sudo apt install git
