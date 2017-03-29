@@ -2,6 +2,8 @@
 
 ## What is Git?
 
+![logo](http://valuebound.com/sites/default/files/2015-12/Beginners_guide_setting_up-git.jpg)
+
 Git is a version control system (VCS) for tracking changes to files and coordinating changes between multiple people who are all working on the same code base.
 
 One way to think about Git, is to imagine a magical school bag. You can pull books out of your bag and do some work anytime you like. Once you've finished you homework, you can put the books back into your school bag, and the bag remembers what changes you made to all the books inside it.
