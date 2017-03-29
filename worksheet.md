@@ -218,7 +218,7 @@ Imagine you're talking to your friend about your amazing project, and they have 
 1. First, you can have a look at your repo's current status.
 
 	```bash
-	git status
+p	git status
 	```
 
 	which should show something like this:
