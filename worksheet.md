@@ -24,7 +24,7 @@ sudo apt install git
 
 ## Setting up Git
 
-You're going to be working in a terminal window for the duration of this resource, so open it up by clicking on the icon on the desktop, or by pressing `ctrl + alt + t` on your keyboard.
+You're going to be working in a terminal window for the duration of this resource, so open it up by clicking on the icon on the desktop, or by pressing `ctrl+alt+t` on your keyboard.
 
 1. The first thing to do is to tell Git who you are. This is important, as Git can be used collaboratively by lots of people, so it needs to know who made changes to which files.
 
@@ -69,7 +69,7 @@ So you want to start a new project? Maybe it's a special ultrasonic range finder
 	This is a project that uses multiple long-range ultrasonic sensors to find and track an object flying in three-dimensional space. It displays the object's coordinates, speed, and trajectory through a VR headset.
 	```
 
-1. Pressing `ctrl + x` will cause a save prompt to appear. You can type `y` to save and then hit `enter` to close nano.
+1. Pressing `ctrl+x` will cause a save prompt to appear. You can type `y` to save and then hit `enter` to close nano.
 
 1. You file should have been created and will now be sitting in your directory. You can type `ls` in the terminal to see a list of files.
 
@@ -77,13 +77,13 @@ So you want to start a new project? Maybe it's a special ultrasonic range finder
 	ls
 	```
 
-1. At the moment, the directory is just like any other directory on your system. You now need to make the magical school bag part. This is known as a `Git Repository`, and it takes the form a a hidden directory that keeps track of all the changes to the working directory. Type the following to create the repository, which from now on will just be called a *repo*.
+1. At the moment, the directory is just like any other directory on your system. You now need to make the magical school bag part. This is known as a **Git repository**, and it takes the form a a hidden directory that keeps track of all the changes to the working directory. Type the following to create the repository, which from now on will just be called a **repo**:
 
 	```bash
 	git init
 	```
 
-1. If you type `ls` again, nothing will appear to have changed. You can use `ls -a` though to see all the hidden files and directories.
+1. If you type `ls` again, nothing will appear to have changed. You can use `ls -a` to see all the hidden files and directories, though.
 
 	```
 	ls -a
@@ -95,7 +95,7 @@ So you want to start a new project? Maybe it's a special ultrasonic range finder
 	.  ..  .git  README.md
 	```
 
-1. That `.git` directory is the *repo skeleton*. You can have a look inside it by typing the following.
+1. That `.git` directory is the **repo skeleton**. You can have a look inside it by typing the following.
 
 	```bash
 	ls -a .git
@@ -107,7 +107,7 @@ So you want to start a new project? Maybe it's a special ultrasonic range finder
 branches  config  description  HEAD  hooks  info  objects  refs
 ```
 
-1. You don't really need to worry about this directory at all now. Just know that it is there and that it is tracking all the changes to the parent directory **snitch-sniffer**. 
+1. You don't really need to worry about this directory at all now. Just know that it is there and that it is tracking all the changes to the parent directory `snitch-sniffer`. 
 
 ## Adding your books
 
@@ -378,8 +378,8 @@ Issues are lovely, but if you want to help out even more then maintainers of pro
 
 ## What Next?
 
-1. Now that you have an understanding of the way Git and GitHub works, start using it for all your projects.
+1. Now that you have an understanding of the way Git and GitHub works, you could start using it for all your projects.
 
-1. When you create a project, don't forget to tell people about it, and send them links to your GitHub repos. That way they can use your code and maybe even help make it better.
+1. When you create a project, don't forget to tell people about it, and send them links to your GitHub repos. That way they can use your code and maybe even help to make it better.
 
-1. Why not find a project that you could help out with on GitHub. You can help improve anything from the code itself, to documentation, to fixing little typos.
+1. Why not find a project that you could help out with on GitHub? You can help with anything from improving the code and the documentation to fixing little typos.
