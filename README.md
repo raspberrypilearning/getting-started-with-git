@@ -1,4 +1,4 @@
-# Getting Started with Git
+# Getting started with Git
 
 ![](cover.png)
 
