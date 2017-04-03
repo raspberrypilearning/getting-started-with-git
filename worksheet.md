@@ -1,4 +1,4 @@
-# Getting Started with Git
+# Getting started with Git
 
 ## What is Git?
 
@@ -6,17 +6,17 @@
 
 Git is a version control system (VCS) for tracking changes to files and coordinating changes between multiple people who are all working on the same code base.
 
-One way to think about Git, is to imagine a magical school bag. You can pull books out of your bag and do some work anytime you like. Once you've finished you homework, you can put the books back into your school bag, and the bag remembers what changes you made to all the books inside it.
+One way to think about Git is to imagine a magical school bag. You can pull books out of your bag and do some work anytime you like. Once you've finished you homework, you can put the books back into your school bag, and the bag remembers what changes you made to all the books inside it.
 
 What's even better is that this school bag can be synchronised with another magical school bag that lives in the clouds. Anytime you like, you can tell the bag to copy the contents of all the books to the sky-bag. If you lose your own school bag, you don't have to worry, as you can just get a new one and grab all the books and writing from the sky-bag.
 
-That's not all though. All your friends at school also have magical school bags. They also keep their bags synchronised with the sky-bag. This means that you and your friends can all work on the homework together. If a friend has a better answer to a Science question than you do, you can copy their answer from the sky-bag to your book.
+That's not all though. All your friends at school also have magical school bags. They also keep their bags synchronised with the sky-bag. This means that you and your friends can all work on the homework together. If a friend has a better answer to a science question than you do, you can copy their answer from the sky-bag to your book.
 
-It gets better than that though. Your teacher also has a magical school bag. When she wants to check the homework, she just copies all the books from the sky-bag to her bag. She can then check through the answers from the whole class in one go. If she spots a mistake, she can write a comment in the margin of the book, and then all the magical bags from the whole class will have receive the comment. Only one person in the class needs to correct the mistake though, and then all of a sudden, every one in the class has the correct answer.
+It gets even better than that: your teacher also has a magical school bag. When she wants to check the homework, she just copies all the books from the sky-bag to her bag. She can then check through the answers from the whole class in one go. If she spots a mistake, she can write a comment in the margin of the book, and then all the magical bags from the whole class will have receive the comment. Only one person in the class needs to correct the mistake though, and then all of a sudden, every one in the class has the correct answer.
 
 ## Getting Git.
 
-If you're working on a Raspberry Pi, then congratulations, Git is already installed by default in Raspbian. If you're using MacOS, then you can follow [this quick guide](mac-install.md) to installing git and then return here to learn how to use it. If you're on Windows, then we have a follow [this guide to install git shell](windows-install.md). Lastly, if you're on Linux, and don't' have git installed, then you can just use your package manager to grab the software. Something like this should work:
+If you're working on a Raspberry Pi, then congratulations: Git is already installed by default in Raspbian. If you're using Mac OS, then you can follow [this quick guide](mac-install.md) to installing Git and then return here to learn how to use it. If you're on Windows, then you can follow [this guide to install Git shell](windows-install.md). Lastly, if you're on Linux, and you don't have Git installed, then you can just use your package manager to grab the software. Something like this should work:
 
 ```bash
 sudo apt install git
@@ -24,7 +24,7 @@ sudo apt install git
 
 ## Setting up Git
 
-You're going to be working in the terminal for the duration of this resource, so open it up by clicking on the icon on the Desktop, or by pressing `ctrl+alt+t` on your keyboard.
+You're going to be working in a terminal window for the duration of this resource, so open it up by clicking on the icon on the desktop, or by pressing `ctrl+alt+t` on your keyboard.
 
 1. The first thing to do is to tell Git who you are. This is important, as Git can be used collaboratively by lots of people, so it needs to know who made changes to which files.
 
