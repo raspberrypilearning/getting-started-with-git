@@ -2,7 +2,7 @@
 
 ![](cover.png)
 
-Learn how to use Git and GitHub from the command line on Linux, MacOS and Windows
+Learn how to use Git and GitHub from the command line on Linux, Mac OS, and Windows
 
 ## Licence
 
