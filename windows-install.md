@@ -6,7 +6,7 @@ The easiest way to install Git on Windows is to use GitHub's application. If you
 
 	![](images/gh-reg.png)
 
-1. Head on over to [desktop.github.com/](https://desktop.github.com/) and click on the **Download** button to download the GitHub app.
+1. Head over to [desktop.github.com](https://desktop.github.com/) and click on the **Download** button to download the GitHub app.
 
 	![github](images/download-git.png)
 	
