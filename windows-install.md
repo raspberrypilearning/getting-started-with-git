@@ -22,4 +22,4 @@ The easiest way to install Git on Windows is to use GitHub's application. If you
 
 	![github-shell](images/github-shell.png)
 	
-1. As the GitHub app has configured your username and email address, you can skip the **## Setting up Git** section of the main worksheet.
+1. As the GitHub app has configured your username and email address, you can skip the **Setting up Git** section of the main worksheet.
