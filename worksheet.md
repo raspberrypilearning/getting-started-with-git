@@ -8,7 +8,7 @@ Git is a version control system (VCS) for tracking changes to files and coordina
 
 One way to think about Git is to imagine a magical school bag. You can pull books out of your bag and do some work anytime you like. Once you've finished you homework, you can put the books back into your school bag, and the bag remembers what changes you made to all the books inside it.
 
-What's even better is that this school bag can be synchronised with another magical school bag that lives in the clouds. Anytime you like, you can tell the bag to copy the contents of all the books to the sky-bag. If you lose your own school bag, you don't have to worry, as you can just get a new one and grab all the books and writing from the sky-bag.
+What's really clever is that this school bag can be synchronised with another magical school bag that lives in the clouds. Anytime you like, you can tell the bag to copy the contents of all the books to the sky-bag. If you lose your own school bag, you don't have to worry, as you can just get a new one and grab all the books and writing from the sky-bag.
 
 That's not all though. All your friends at school also have magical school bags. They also keep their bags synchronised with the sky-bag. This means that you and your friends can all work on the homework together. If a friend has a better answer to a science question than you do, you can copy their answer from the sky-bag to your book.
 
@@ -24,7 +24,7 @@ sudo apt install git
 
 ## Setting up Git
 
-You're going to be working in a terminal window for the duration of this resource, so open it up by clicking on the icon on the desktop, or by pressing `ctrl+alt+t` on your keyboard.
+You're going to be working in a terminal window for the duration of this resource, so open it up by clicking on the icon on the desktop, or by pressing `ctrl + alt + t` on your keyboard.
 
 1. The first thing to do is to tell Git who you are. This is important, as Git can be used collaboratively by lots of people, so it needs to know who made changes to which files.
 
@@ -33,7 +33,7 @@ You're going to be working in a terminal window for the duration of this resourc
 	git config --global user.email "h.potter@hogwarts.prof"
 	```
 
-1. Next you need to tell Git which text editor you want to use. If you don't have any particularly strong feelings about text editors then you can just type:
+1. Next you need to tell Git which text editor you want to use. If you don't have any particularly strong feelings about text editors, then you can just type:
 
 ```bash
 git config --global core.editor nano
@@ -41,37 +41,37 @@ git config --global core.editor nano
 
 ## Creating your first magic school bag
 
-So you want to start a new project; maybe it's a special ultrasonic range finder for tracking flying objects in the air. You'll want a directory on your computer for all your files to sit in, so the first thing to do is to create the directory.
+So you want to start a new project? Maybe it's a special ultrasonic range finder for tracking flying objects in the air. You'll want a directory on your computer for all your files to sit in, so the first thing to do is create that directory.
 
-1. In the terminal you can use the `make directory` command to create a new directory.
+1. In the terminal, you can use the `mkdir` (make directory) command to create a new directory.
 
 	```bash
 	mkdir snitch-sniffer
 	```
 
-1. Now you want to go into that directory. You can used the `change directory` command to do this.
+1. Now you want to go into that directory. You can use the `cd` (change directory) command to do this.
 
 	```bash
 	cd snitch-sniffer
 	```
 
-1. Next you can create a file to that will tell anyone looking at the project, what it's all about. You can use any text editor to do this, but in this example `nano` is used to create a file called `README.md`. The `.md` extension stands for `markdown`, which is a markup language. [You can learn more about markdown here](https://daringfireball.net/projects/markdown/).
+1. Next, you can create a file to that will tell people what the project is about. You can use any text editor to do this, but in this example `nano` is used to create a file called `README.md`. The `.md` extension stands for **Markdown**, which is a markup language. You can learn more about Markdown [here](https://daringfireball.net/projects/markdown/).
 
 
 	```bash
 	nano README.md
 	```
 
-1. This should open up the file in the terminal. You can now give the file a title and a little explanation for what your project is all about.
+1. This should open up the file in the terminal. You can now give the file a title and write a short explanation of what your project is about.
 
 	```markdown
 	# The Golden Snitch Sniffer
-	This is a project that uses multiple long range ultrasonic sensors to find and track an object flying in three dimensional space and display the objects coordinates, speed and trajectory through a VR headset.
+	This is a project that uses multiple long-range ultrasonic sensors to find and track an object flying in three-dimensional space. It displays the object's coordinates, speed, and trajectory through a VR headset.
 	```
 
-1. Pressing `ctrl`+`x` will cause a save prompt to appear. You can type `y` to save and then hit `enter` to close nano.
+1. Pressing `ctrl + x` will cause a save prompt to appear. You can type `y` to save and then hit `enter` to close nano.
 
-1. You file should have been created and now be sitting in your directory. You can type `ls` in the terminal to see a list of files.
+1. You file should have been created and will now be sitting in your directory. You can type `ls` in the terminal to see a list of files.
 
 	```bash
 	ls
