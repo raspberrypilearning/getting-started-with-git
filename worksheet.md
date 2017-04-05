@@ -35,9 +35,9 @@ You're going to be working in a terminal window for the duration of this resourc
 
 1. Next you need to tell Git which text editor you want to use. If you don't have any particularly strong feelings about text editors, then you can just type:
 
-```bash
-git config --global core.editor nano
-```
+	```bash
+	git config --global core.editor nano
+	```
 
 ## Creating your first magic school bag
 
@@ -103,9 +103,9 @@ So you want to start a new project? Maybe it's a special ultrasonic range finder
 
 1. This should bring up something like:
 
-```bash
-branches  config  description  HEAD  hooks  info  objects  refs
-```
+	```bash
+	branches  config  description  HEAD  hooks  info  objects  refs
+	```
 
 1. You don't really need to worry about this directory at all now. Just know that it is there and that it is tracking all the changes to the parent directory `snitch-sniffer`. 
 
@@ -209,9 +209,9 @@ branches  config  description  HEAD  hooks  info  objects  refs
 
 1. The file will be restored and you can now commit this change.
 
-```bash
-git commit -am 'restore find function'
-```
+	```bash
+	git commit -am 'restore find function'
+	```
 
 ## Making major changes
 
@@ -220,7 +220,7 @@ Imagine you're talking to your friend about your amazing project, and they have 
 1. First, you can have a look at your repo's current status.
 
 	```bash
-p	git status
+	git status
 	```
 
 	This should show something like this:
@@ -230,7 +230,7 @@ p	git status
 	nothing to commit, working directory clean
 	```
 
-1. Now you can make a new branch in the repo, letting you work on your amazing new adaption.
+1. Now you can make a new branch in the repo, which lets you work on your amazing new adaption.
 
 	```bash
 	git checkout -b lidar-version
@@ -245,10 +245,10 @@ p	git status
 
 	This tells you that you are on the `lidar-version` branch. To view all the branches in your repo, you can type `git branch` which will show something like this:
 
-  ```bash
-  * lidar-version
-	master
-  ```
+	```bash
+	* lidar-version
+		master
+	```
 
 1. You can now work on the lidar-version branch without altering your master branch. If you try out the new approach and find it doesn't work, you can simply the branch using `git branch -D lidar-version`. However, if it all works well, you can merge the branch back into your master branch.
 
@@ -324,9 +324,9 @@ This resource is itself a GitHub repo. You can find it at [https://github.com/ra
 
 Our copy editors at Raspberry Pi are pretty amazing, so the chances of you spotting a typo in this resource are pretty slim. You might spot a mistake in some of the code though, and that's where you can help out. Take this bit of code for example:
 
-```python
-print('Hello World!)
-```
+	```python
+	print('Hello World!)
+	```
 
 Let's see how you could help fix this error.
 
@@ -374,7 +374,7 @@ Issues are great, but if you want to help out even more, then project maintainer
 
 1. Once you're happy, click the **Create pull request** button. The maintainer of the repo will then be able to see your pull request. They can then choose to merge it into their repo, or close it.
 
-![](images/pull4.png)
+	![](images/pull4.png)
 
 ## What Next?
 
