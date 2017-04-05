@@ -91,7 +91,7 @@ So you want to start a new project? Maybe it's a special ultrasonic range finder
 	ls -a
 	```
 
-1. You should now see something like this in your terminal:
+1. You should now see something like this in your terminal window:
 
 	```bash
 	.  ..  .git  README.md
