@@ -24,7 +24,7 @@ sudo apt install git
 
 ## Setting up Git
 
-You're going to be working in a terminal window for the duration of this resource, so open it up by clicking on the icon on the desktop, or by pressing `Ctrl+Alt+T` on your keyboard.
+You're going to be working in a terminal window for the duration of this resource, so open it up by clicking on the icon on the desktop, or by pressing `Ctrl + Alt + T` on your keyboard.
 
 1. The first thing to do is to tell Git who you are. This is important, as Git can be used collaboratively by lots of people, so it needs to know who made changes to which files. You can use your own name and email address, unless you are in fact the Boy Who Lived. 
 
@@ -69,7 +69,7 @@ So you want to start a new project? Maybe it's a special ultrasonic range finder
 	This is a project that uses multiple long-range ultrasonic sensors to find and track an object flying in three-dimensional space. It displays the object's coordinates, speed, and trajectory through a VR headset.
 	```
 
-1. Pressing `Ctrl+X` will cause a save prompt to appear. You can type `Y` to save and then hit `Enter` to close nano.
+1. Pressing `Ctrl + X` will cause a save prompt to appear. You can type `Y` to save and then hit `Enter` to close nano.
 
 1. You file should have been created and will now be sitting in your directory. You can type `ls` in the terminal to see a list of files.
 
