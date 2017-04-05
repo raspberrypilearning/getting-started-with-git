@@ -320,9 +320,9 @@ There are lots of services that will host your Git repo for you, free of charge.
 
 The true power of services like GitHub becomes apparent when you start working with other people. GitHub lets other people make their own copies of your projects, or you to make copies of theirs. Either of you can then make improvements to the project and then push the improvements up to GitHub for everyone to share.
 
-This resource is itself a GitHub repo. You can find it at [https://github.com/raspberrypilearning/getting-started-with-git](https://github.com/raspberrypilearning/getting-started-with-git). That means that if you found a mistake in the resource, or if you just wanted to make some improvements, you can. There are two main ways to get involved with other people's projects: **Issues** and **Pull Requests**.
+This resource is itself a GitHub repo. You can find it at [https://github.com/raspberrypilearning/getting-started-with-git](https://github.com/raspberrypilearning/getting-started-with-git). That means that if you found a mistake in the resource, or if you just wanted to make some improvements, you can. There are two main ways to get involved with other people's projects: **issues** and **pull equests**.
 
-## GitHub Issues
+## GitHub issues
 
 Our copy editors at Raspberry Pi are pretty amazing, so the chances of you spotting a typo in this resource are pretty slim. You might spot a mistake in some of the code though, and that's where you can help out. Take this bit of code for example:
 
@@ -346,7 +346,7 @@ Let's see how you could help fix this error.
 
 	![](images/closed.png)
 
-## Pull Requests
+## Pull requests
 
 Issues are great, but if you want to help out even more, then project maintainers are usually very happy for you to fix or improve projects yourself. To do this, you need to make your own copy of the repo so that you can work on it.
 
@@ -378,7 +378,7 @@ Issues are great, but if you want to help out even more, then project maintainer
 
 	![](images/pull4.png)
 
-## What Next?
+## What next?
 
 1. Now that you have an understanding of the way Git and GitHub works, you could start using it for all your projects.
 
