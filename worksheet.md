@@ -26,7 +26,7 @@ sudo apt install git
 
 You're going to be working in a terminal window for the duration of this resource, so open it up by clicking on the icon on the desktop, or by pressing `Ctrl + Alt + T` on your keyboard.
 
-1. The first thing to do is to tell Git who you are. This is important, as Git can be used collaboratively by lots of people, so it needs to know who made changes to which files. You can use your own name and email address, unless you are in fact the Boy Who Lived. 
+1. The first thing to do is to tell Git who you are. This is important, as Git can be used collaboratively by lots of people, so it needs to know who made changes to which files. You can use your own username and email address, unless you are in fact the Boy Who Lived. 
 
 	```bash
 	git config --global user.name "Harry Potter"
