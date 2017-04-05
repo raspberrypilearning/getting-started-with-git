@@ -6,7 +6,7 @@ Getting Git set up on Mac OS is easy, and has the added benefit of giving you a 
 
 	![homebrew](images/homebrew.png)
 
-1. Open up a terminal window by typing `cmd + space` to open Spotlight and then type `terminal` into the search field.
+1. Open up a terminal window by typing `Cmd + Space` to open Spotlight and then type `terminal` into the search field.
 
 	![spotlight](images/spotlight.png)
 	
