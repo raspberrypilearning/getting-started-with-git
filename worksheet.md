@@ -171,7 +171,7 @@ So you want to start a new project? Maybe it's a special ultrasonic range finder
 	git commit -am 'finish find function`
 	```
 
-1. Now imagine that you've made a horrible mistake. You've been working for awhile and you've deleted your `find_snitch()` function, and then performed a commit. With Git, it's easy to go back in time and restore an earlier version of any of your files. Let's first look at the commit history of the file.
+1. Now imagine that you've made a horrible mistake. You've been working for a while and you've deleted your `find_snitch()` function, and then performed a commit. With Git, it's easy to go back in time and restore an earlier version of any of your files. Let's first look at the commit history of the file.
 
 	```bash
 	git log snitch-sniffer.py
