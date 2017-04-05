@@ -66,7 +66,9 @@ So you want to start a new project? Maybe it's a special ultrasonic range finder
 
 	```markdown
 	# The Golden Snitch Sniffer
-	This is a project that uses multiple long-range ultrasonic sensors to find and track an object flying in three-dimensional space. It displays the object's coordinates, speed, and trajectory through a VR headset.
+	This is a project that uses multiple long-range ultrasonic sensors to find and track 
+	an object flying in three-dimensional space. It displays the object's coordinates, 
+	speed, and trajectory through a VR headset.
 	```
 
 1. Pressing `Ctrl + X` will cause a save prompt to appear. You can type `Y` to save and then hit `Enter` to close nano.
