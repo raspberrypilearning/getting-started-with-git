@@ -326,9 +326,9 @@ This resource is itself a GitHub repo. You can find it at [https://github.com/ra
 
 Our copy editors at Raspberry Pi are pretty amazing, so the chances of you spotting a typo in this resource are pretty slim. You might spot a mistake in some of the code though, and that's where you can help out. Take this bit of code for example:
 
-	```python
-	print('Hello World!)
-	```
+```python
+print('Hello World!)
+```
 
 Let's see how you could help fix this error.
 
