@@ -55,7 +55,7 @@ So you want to start a new project? Maybe it's a special ultrasonic range finder
 	cd snitch-sniffer
 	```
 
-1. Next, you can create a file to that will tell people what the project is about. You can use any text editor to do this, but in this example `nano` is used to create a file called `README.md`. The `.md` extension stands for **Markdown**, which is a markup language. You can learn more about Markdown [here](https://daringfireball.net/projects/markdown/).
+1. Next, you can create a file to tell people what the project is about. You can use any text editor to do this, but in this example `nano` is used to create a file called `README.md`. The `.md` extension stands for **Markdown**, which is a markup language. You can learn more about Markdown [here](https://daringfireball.net/projects/markdown/).
 
 
 	```bash
@@ -73,7 +73,7 @@ So you want to start a new project? Maybe it's a special ultrasonic range finder
 
 1. Pressing `Ctrl + X` will cause a save prompt to appear. You can type `Y` to save and then hit `Enter` to close nano.
 
-1. You file should have been created and will now be sitting in your directory. You can type `ls` in the terminal to see a list of files.
+1. Your file should have been created and will now be sitting in your directory. You can type `ls` in the terminal to see a list of files.
 
 	```bash
 	ls
@@ -170,7 +170,7 @@ So you want to start a new project? Maybe it's a special ultrasonic range finder
 1. Then you carry on working on your code for a bit. Every time you make a significant change to the file, you can perform a new commit.
 
 	```bash
-	git commit -am 'finish find function`
+	git commit -am 'finish find function'
 	```
 
 1. Now imagine that you've made a horrible mistake. You've been working for a while and you've deleted your `find_snitch()` function, and then performed a commit. With Git, it's easy to go back in time and restore an earlier version of any of your files. Let's first look at the commit history of the file.
@@ -252,7 +252,7 @@ Imagine you're talking to your friend about your amazing project, and they have 
 		master
 	```
 
-1. You can now work on the lidar-version branch without altering your master branch. If you try out the new approach and find it doesn't work, you can simply the branch using `git branch -D lidar-version`. However, if it all works well, you can merge the branch back into your master branch.
+1. You can now work on the lidar-version branch without altering your master branch. If you try out the new approach and find it doesn't work, you can simply delete the branch using `git branch -D lidar-version`. However, if it all works well, you can merge the branch back into your master branch.
 
 1. First, you'll need to make sure all your changes are committed and then switch back to the master branch.
 
@@ -320,7 +320,7 @@ There are lots of services that will host your Git repo for you, free of charge.
 
 The true power of services like GitHub becomes apparent when you start working with other people. GitHub lets other people make their own copies of your projects, or you to make copies of theirs. Either of you can then make improvements to the project and then push the improvements up to GitHub for everyone to share.
 
-This resource is itself a GitHub repo. You can find it at [https://github.com/raspberrypilearning/getting-started-with-git](https://github.com/raspberrypilearning/getting-started-with-git). That means that if you found a mistake in the resource, or if you just wanted to make some improvements, you can. There are two main ways to get involved with other people's projects: **issues** and **pull equests**.
+This resource is itself a GitHub repo. You can find it at [https://github.com/raspberrypilearning/getting-started-with-git](https://github.com/raspberrypilearning/getting-started-with-git). That means that if you found a mistake in the resource, or if you just wanted to make some improvements, you can. There are two main ways to get involved with other people's projects: **issues** and **pull requests**.
 
 ## GitHub issues
 
@@ -370,7 +370,7 @@ Issues are great, but if you want to help out even more, then project maintainer
 
 	![](images/pull2.png)
 
-1. You commit message will be there, but you can change it and even add a more detailed description if you like.
+1. Your commit message will be there, but you can change it and even add a more detailed description if you like.
 
 	![](images/pull3.png)
 
