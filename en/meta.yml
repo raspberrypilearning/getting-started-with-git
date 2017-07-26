@@ -16,7 +16,6 @@ site_areas: ''
 steps:
 - title: Introduction
 - title: What you will need
-- title: Getting started with Git
 - title: What is Git?
 - title: Getting Git.
 - title: Setting up Git

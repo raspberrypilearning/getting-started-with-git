@@ -1,72 +1,41 @@
-## Creating your first magic school bag
+## Adding your books
 
-So you want to start a new project? Maybe it's a special ultrasonic range finder for tracking flying objects in the air. You'll want a directory on your computer for all your files to sit in, so the first thing to do is create that directory.
-
-- In the terminal, you can use the `mkdir` (make directory) command to create a new directory.
+- So you now have the magic school bag part, but you haven't yet added anything to it. That `README.md` file hasn't been placed into the bag yet. You need to tell Git that you want to add the `README.md` file to the repo. To do this you can simply type:
 
 	```bash
-	mkdir snitch-sniffer
+	git add README.md
 	```
 
-- Now you want to go into that directory. You can use the `cd` (change directory) command to do this.
+	Sometime it's easier to just add everything to the repo though, rather than adding individual files. To do this you can type:
 
 	```bash
-	cd snitch-sniffer
+	git add --all
 	```
 
-- Next, you can create a file that will tell people what the project is about. You can use any text editor to do this, but in this example `nano` is used to create a file called `README.md`. The `.md` extension stands for **Markdown**, which is a markup language. You can learn more about Markdown [here](https://daringfireball.net/projects/markdown/).
-
+- Now Git knows it needs to keep track of all the changes that happen to the `README.md` file. You can have a look at the status of your repo at any time by typing the following: 
 
 	```bash
-	nano README.md
+	git status
 	```
 
-- This should open up the file in the terminal. You can now give the file a title and write a short explanation of what your project is about.
-
-	```markdown
-	# The Golden Snitch Sniffer
-	This is a project that uses multiple long-range ultrasonic sensors to find and track 
-	an object flying in three-dimensional space. It displays the object's coordinates, 
-	speed, and trajectory through a VR headset.
-	```
-
-- Pressing `Ctrl + X` will cause a save prompt to appear. You can type `Y` to save and then hit `Enter` to close nano.
-
-- Your file should have been created and will now be sitting in your directory. You can type `ls` in the terminal to see a list of files.
+	You should see something like this
 
 	```bash
-	ls
+	On branch master
+
+	Initial commit
+
+	Changes to be committed:
+	  (use "git rm --cached <file>..." to unstage)
+
+		new file:   README.md
 	```
 
-- At the moment, the directory is just like any other directory on your system. You now need to make the magical school bag part. This is known as a **Git repository**, and it takes the form of a hidden directory that keeps track of all the changes to the working directory. Type the following to create the repository, which from now on will just be called a **repo**:
+- The above response is telling you that the `README.md` file has not yet been **committed**. This means that although Git knows about the file, it doesn't yet have any of the file's contents stored. The simplest way to do a commit is by typing:
 
 	```bash
-	git init
+	git commit -am 'add README.md'
 	```
 
-- If you type `ls` again, nothing will appear to have changed. You can use `ls -a` to see all the hidden files and directories, though.
-
-	```
-	ls -a
-	```
-
-- You should now see something like this in your terminal window:
-
-	```bash
-	.  ..  .git  README.md
-	```
-
-- That `.git` directory is the **repo skeleton**. You can have a look inside it by typing the following.
-
-	```bash
-	ls -a .git
-	```
-
-- This should bring up something like:
-
-	```bash
-	branches  config  description  HEAD  hooks  info  objects  refs
-	```
-
-- You don't really need to worry about this directory at all now. Just know that it is there and that it is tracking all the changes to the parent directory `snitch-sniffer`. 
+	This commits all changes you have made in the directory to the Git repo, and adds a message saying what you did. The message can be anything really, but it's best to keep it fairly short yet descriptive of what you changed.
 

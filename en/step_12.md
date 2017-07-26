@@ -1,6 +1,24 @@
-## Collaborative working
+## GitHub issues
 
-The true power of services like GitHub becomes apparent when you start working with other people. GitHub lets other people make their own copies of your projects, or you to make copies of theirs. Either of you can then make improvements to the project and then push the improvements up to GitHub for everyone to share.
+Our copy editors at Raspberry Pi are pretty amazing, so the chances of you spotting a typo in this resource are pretty slim. You might spot a mistake in some of the code though, and that's where you can help out. Take this bit of code for example:
 
-This resource is itself a GitHub repo. You can find it at [https://github.com/raspberrypilearning/getting-started-with-git](https://github.com/raspberrypilearning/getting-started-with-git). That means that if you found a mistake in the resource, or if you just wanted to make some improvements, you can. There are two main ways to get involved with other people's projects: **issues** and **pull requests**.
+```python
+print('Hello World!)
+```
+
+Let's see how you could help fix this error.
+
+- Head on over to [https://github.com/raspberrypilearning/getting-started-with-git](https://github.com/raspberrypilearning/getting-started-with-git), and make sure you are logged in.
+
+- Now, you want to find the **Issues** tab
+
+	![](images/issues.png)
+
+- You can now create a new issue, and give a description
+
+	![](images/issue.png)
+
+- Once that's completed, the maintainers of the repo will be able to reply to you, and close the issue once it's fixed.
+
+	![](images/closed.png)
 
