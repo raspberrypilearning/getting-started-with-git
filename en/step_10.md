@@ -1,51 +1,50 @@
-## Making major changes
+## Working with a sky-bag
 
-Imagine you're talking to your friend about your amazing project, and they have a really cool idea for some changes you could make to improve it. Your friend suggests using [Lidar](https://en.wikipedia.org/wiki/Lidar) rather than ultrasonic sensors. The changes are quite large, though, and you're worried that if you make them, you might break the project. You could make a copy of the directory and start working on this copy, but to keep using Git you'd have to make an entirely new repo. This could all get quite confusing. Luckily, Git has a feature called **branches**; using a branch allows you to make copies without losing or altering your original work.
+Now that you know how to do the basics in Git, it's time to learn how to use it to its full potential: use it to share your work and collaborate with others.
 
-- First, you can have a look at your repo's current status.
+There are lots of services that will host your Git repo for you, free of charge. [GitLab](https://about.gitlab.com/) is one such service and [BitBucket](https://bitbucket.org/) is another. In this resource, you are going to be using [GitHub](https://github.com/), which is one of the more popular services.
 
-	```bash
-	git status
-	```
+- The first thing to do is to register for an account on [GitHub](https://github.com/join?source=header-home), and just choose the free plan.
 
-	This should show something like this:
+	![](images/gh-reg.png)
 
-	```bash
-	On branch master
-	nothing to commit, working directory clean
-	```
+- Now that you have an account, you can create a `snitch-sniffer` repo on GitHub. Find the **New repository** button and click it.
 
-- Now you can make a new branch in the repo, which lets you work on your amazing new adaption.
+	![](images/new-repo.png)
 
-	```bash
-	git checkout -b lidar-version
-	```
+- Give the repo a name and a description and click on the **Create repository** button
 
-- Now `git status` will show you something like this:
+	![](images/new-repo2.png)
 
-	```bash
-	On branch lidar-version
-	nothing to commit, working directory clean
-	```
+- This should then bring up a page of instructions
 
-	This tells you that you are on the `lidar-version` branch. To view all the branches in your repo, you can type `git branch` which will show something like this:
+	![](images/instructions.png)
+
+- As you already have a repo ready to push to GitHub, then all you need to do is make sure you are in your project directory and type:
 
 	```bash
-	* lidar-version
-		master
+	git remote add origin git@github.com:HarryPotter/snitch-sniffer.git
 	```
 
-- You can now work on the lidar-version branch without altering your master branch. If you try out the new approach and find it doesn't work, you can simply delete the branch using `git branch -D lidar-version`. However, if it all works well, you can merge the branch back into your master branch.
-
-- First, you'll need to make sure all your changes are committed and then switch back to the master branch.
+	and then
 
 	```bash
-	git checkout master
+	git push -u origin master
 	```
-- Then you can merge the version into the master branch
+
+- If you look on GitHub, you should now be able to see your repo, along with the displayed `README.md` file that you wrote.
+
+	![](images/gh-repo.png)
+
+- Any time you make changes to your project, and you want to push them up to GitHub, you can just type:
 
 	```bash
-	git merge lidar-version
+	git push origin master
 	```
-- **Warning**: you can cause problems with a merge if you're working on two branches at the same time, as Git won't know which changes are the ones you want to keep. For this reason, it's best to just work on one branch at a time.
+
+	If you are working on a different branch you would type:
+
+	```bash
+	git push origin <branch-name>
+	```
 
