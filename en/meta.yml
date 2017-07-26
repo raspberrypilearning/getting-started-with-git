@@ -6,7 +6,7 @@ description: Learn how to use Git and GitHub from the command line on Linux, Mac
 original_url: https://raspberrypi.org/learning/getting-started-with-git
 theme: red
 duration: 2
-listed: false
+listed: true
 ingredient: false
 copyedit: true
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
