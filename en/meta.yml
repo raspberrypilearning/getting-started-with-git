@@ -4,7 +4,7 @@ hero_image: images/banner.png
 description: Learn how to use Git and GitHub from the command line on Linux, Mac OS,
   and Windows
 original_url: https://raspberrypi.org/learning/getting-started-with-git
-theme: red
+theme: yellow
 duration: 2
 listed: true
 ingredient: false
