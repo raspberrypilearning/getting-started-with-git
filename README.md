@@ -1,4 +1,4 @@
-# Getting started with Git
+# Getting started with Git Farts
 
 ![](cover.png)
 
