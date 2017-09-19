@@ -3,7 +3,9 @@
 If you're working on a Raspberry Pi, then congratulations: Git already is installed in Raspbian by default. If you're using Mac OS, then you can follow the collapsed section below to instal Git and then return here to learn how to use it. 
 
 ---collapse---
-### Installing Git on Mac OS
+---
+title: Installing Git on Mac OS
+---
 
 Getting Git set up on Mac OS is easy, and has the added benefit of giving you a package manager to install lots of other awesome and open-source software.
 
@@ -33,8 +35,9 @@ Getting Git set up on Mac OS is easy, and has the added benefit of giving you a 
 If you're on Windows, then you can follow the collapsed section below to install the Git shell.
 
 ---collapse---
-### Installing Git on Windows
-
+---
+title: Installing Git on Windows
+---
 The easiest way to install Git on Windows is to use GitHub's application. If you do not already have a GitHub account, you should begin by setting one up, as this will make things easier later on.
 
 1. Register for an account on [GitHub](https://github.com/join?source=header-home), and choose the free plan.
