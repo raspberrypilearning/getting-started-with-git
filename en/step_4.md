@@ -30,7 +30,7 @@ Getting Git set up on Mac OS is easy, and has the added benefit of giving you a 
 	![installed](images/installed-git.png)
 	
 1. As an added bonus, you now have an amazing package manager which you can use to install software. For instance, you can install Emacs just by typing `brew install emacs` into a terminal window.
----/collapse---
+--- /collapse ---
 
 If you're on Windows, then you can follow the collapsed section below to install the Git shell.
 
@@ -61,7 +61,7 @@ The easiest way to install Git on Windows is to use GitHub's application. If you
 	![github-shell](images/github-shell.png)
 	
 1. As the GitHub app has configured your username and email address, you can skip the **Setting up Git** section of the main worksheet.
----/ collapse ---
+--- /collapse ---
 
 Lastly, if you're on Linux, and you don't have Git installed, then you can just use your package manager to grab the software. Something like this should work:
 
