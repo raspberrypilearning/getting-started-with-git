@@ -1,4 +1,4 @@
-## Getting Git.
+## Getting Git
 
 If you're working on a Raspberry Pi, then congratulations: Git already is installed in Raspbian by default. If you're using Mac OS, then you can follow the collapsed section below to instal Git and then return here to learn how to use it. 
 
@@ -25,7 +25,7 @@ Getting Git set up on Mac OS is easy, and has the added benefit of giving you a 
 	
 	![terminal](images/terminal.png)
 	
-1. You can hit `Return` at the prompts and allow Homebrew to install. Once it is finished, you'll have Git installed on Mac OS, as it's an integral part of Homebrew. You can return to the [main worksheet](worksheet.md), and carry on following the guide.
+1. You can hit **Return** at the prompts and allow Homebrew to install. Once it is finished, you'll have Git installed on Mac OS, as it's an integral part of Homebrew. You can return to the [main worksheet](worksheet.md), and carry on following the guide.
 
 	![installed](images/installed-git.png)
 	
@@ -56,7 +56,7 @@ The easiest way to install Git on Windows is to use GitHub's application. If you
 
 	![icons](images/git-icons.png)
 	
-1. Although you can use the graphical version of the GitHub app, if you want to follow the rest of the [worksheet](worksheet.md), then you should use the **Git shell** app, which is a command line interface (CLI), to use Git. This way, you'll feel comfortable working on other operating systems, and you will also learn a little Bash (Bourne-again shell).
+1. You can use the graphical version of the GitHub app, but if you want to follow the rest of the [worksheet](worksheet.md), you should use the **Git shell** app, which is a command line interface (CLI), to use Git. This way, you'll feel comfortable working on other operating systems, and you will also learn a little Bash (Bourne-again shell).
 
 	![github-shell](images/github-shell.png)
 	
