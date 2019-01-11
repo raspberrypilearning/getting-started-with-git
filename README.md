@@ -1,6 +1,6 @@
 # Getting started with Git
 
-![](cover.png)
+![](en/images/banner.png)
 
 Learn how to use Git and GitHub from the command line on Linux, Mac OS, and Windows
 
