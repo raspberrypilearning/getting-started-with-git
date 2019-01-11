@@ -1,6 +1,6 @@
 ## What is Git?
 
-![logo](http://valuebound.com/sites/default/files/2015-12/Beginners_guide_setting_up-git.jpg)
+![logo](git-logo.png)
 
 Git is a version control system (VCS) for tracking changes to files and coordinating changes between multiple people who are all working on the same code base.
 
@@ -10,5 +10,5 @@ What's really clever is that this school bag can be synchronised with another ma
 
 That's not all though. All your friends at school also have magical school bags. They also keep their bags synchronised with the sky-bag. This means that you and your friends can all work on the homework together. If a friend has a better answer to a science question than you do, you can copy their answer from the sky-bag to your book.
 
-It gets even better than that: your teacher also has a magical school bag. When she wants to check the homework, she just copies all the books from the sky-bag to her bag. She can then check through the answers from the whole class in one go. If she spots a mistake, she can write a comment in the margin of the book, and then all the magical bags from the whole class will have receive the comment. Only one person in the class needs to correct the mistake though, and then everyone in the class immediately has the correct answer.
+It gets even better than that: your teacher also has a magical school bag. When she wants to check the homework, she just copies all the books from the sky-bag to her bag. She can then check through the answers from the whole class in one go. If she spots a mistake, she can write a comment in the margin of the book, and then all the magical bags from the whole class will receive the comment. Only one person in the class needs to correct the mistake though, and then everyone in the class immediately has the correct answer.
 
