@@ -1,6 +1,6 @@
 ## What is Git?
 
-![logo](git-logo.png)
+![logo](images/git-logo.png)
 
 Git is a version control system (VCS) for tracking changes to files and coordinating changes between multiple people who are all working on the same code base.
 
