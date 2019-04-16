@@ -1,6 +1,6 @@
 ## Pull requests
 
-Issues are great, but if you want to help out even more, then project maintainers are usually very happy for you to fix or improve projects yourself. To do this, you need to make your own copy of the repo so that you can work on it.
+Issues are GREAT, but if you want to help out even more, then project maintainers are usually very happy for you to fix or improve projects yourself. To do this, you need to make your own copy of the repo so that you can work on it.
 
 - On the projects main page, find the **Fork** button, and click it.
 
