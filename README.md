@@ -1,4 +1,4 @@
-# Getting started with Git
+# Getting started with Git 
 
 ![](en/images/banner.png)
 
