@@ -2,7 +2,7 @@
 
 - So you now have the magic school bag part, but you haven't yet added anything to it. That `README.md` file hasn't been placed into the bag yet. You need to tell Git that you want to add the `README.md` file to the repo. To do this you can simply type:
 
-	```bash
+	```bash.
 	git add README.md
 	```
 
