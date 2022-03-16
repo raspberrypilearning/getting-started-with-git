@@ -29,7 +29,7 @@ There are lots of services that will host your Git repo for you, free of charge.
 	and then
 
 	```bash
-	git push -u origin master
+	git push -u origin main
 	```
 
 - If you look on GitHub, you should now be able to see your repo, along with the displayed `README.md` file that you wrote.
@@ -39,7 +39,7 @@ There are lots of services that will host your Git repo for you, free of charge.
 - Any time you make changes to your project, and you want to push them up to GitHub, you can just type:
 
 	```bash
-	git push origin master
+	git push origin main
 	```
 
 	If you are working on a different branch you would type:
