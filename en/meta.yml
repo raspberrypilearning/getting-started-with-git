@@ -1,7 +1,8 @@
 ---
 title: Getting started with Git
 hero_image: images/banner.png
-description: Learn how to use Git and GitHub from the command line on Linux, Mac OS and Windows
+description: Learn how to use Git and GitHub from the command line on Linux, Mac OS
+  and Windows
 original_url: https://raspberrypi.org/learning/getting-started-with-git
 theme: yellow
 duration: 2
@@ -16,11 +17,13 @@ hardware: ''
 software: ''
 version: 3
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduction
 - title: What you will need
 - title: What is Git?
 - title: Getting Git
+  completion:
+  - engaged
 - title: Setting up Git
 - title: Creating your first magic school bag
 - title: Adding your books
@@ -30,4 +33,6 @@ steps:
 - title: Collaborative working
 - title: GitHub issues
 - title: Pull requests
+  completion:
+  - internal
 - title: What next?
