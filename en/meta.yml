@@ -20,9 +20,10 @@ last_tested: 2017-01-01
 steps:
 - title: Introduction
 - title: What you will need
-  completion: engaged
 - title: What is Git?
 - title: Getting Git
+  completion:
+  - engaged
 - title: Setting up Git
 - title: Creating your first magic school bag
 - title: Adding your books
@@ -31,6 +32,7 @@ steps:
 - title: Working with a sky-bag
 - title: Collaborative working
 - title: GitHub issues
-  completion: internal
 - title: Pull requests
+  completion:
+  - internal
 - title: What next?
