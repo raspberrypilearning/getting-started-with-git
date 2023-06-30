@@ -14,14 +14,9 @@ So you want to start a new project? Maybe it's a special ultrasonic range finder
 	cd snitch-sniffer
 	```
 
-- Next, you can create a file that will tell people what the project is about. You can use any text editor to do this, but in this example `nano` is used to create a file called `README.md`. The `.md` extension stands for **Markdown**, which is a markup language. You can learn more about Markdown [here](https://daringfireball.net/projects/markdown/).
+- Next, you can create a file that will tell people what the project is about. You can use any text editor to do this, such as Notepad, TextEdit or Gedit. Create a file called `README.md`. The `.md` extension stands for **Markdown**, which is a markup language. You can learn more about Markdown [here](https://daringfireball.net/projects/markdown/).
 
-
-	```bash
-	nano README.md
-	```
-
-- This should open up the file in the terminal. You can now give the file a title and write a short explanation of what your project is about.
+- You can now give the file a title and write a short explanation of what your project is about.
 
 	```markdown
 	# The Golden Snitch Sniffer
@@ -32,7 +27,7 @@ So you want to start a new project? Maybe it's a special ultrasonic range finder
 
 - Pressing `Ctrl + X` will cause a save prompt to appear. You can type `Y` to save and then hit `Enter` to close nano.
 
-- Your file should have been created and will now be sitting in your directory. You can type `ls` in the terminal to see a list of files.
+- Your file should have been created and will now be sitting in your directory. You can type `ls` in the terminal or `dir` if you are using Windows, to see a list of files.
 
 	```bash
 	ls
@@ -44,7 +39,7 @@ So you want to start a new project? Maybe it's a special ultrasonic range finder
 	git init
 	```
 
-- If you type `ls` again, nothing will appear to have changed. You can use `ls -a` to see all the hidden files and directories, though.
+- If you type `ls` again, nothing will appear to have changed. You can use `ls -a` to see all the hidden files and directories, though. If you are using Windows then type `dir /A` instead.
 
 	```
 	ls -a
@@ -56,7 +51,7 @@ So you want to start a new project? Maybe it's a special ultrasonic range finder
 	.  ..  .git  README.md
 	```
 
-- That `.git` directory is the **repo skeleton**. You can have a look inside it by typing the following.
+- That `.git` directory is the **repo skeleton**. You can have a look inside it by typing the following. (Remember if you are using Windows it would be `dir /A .git`.)
 
 	```bash
 	ls -a .git

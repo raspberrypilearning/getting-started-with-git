@@ -34,7 +34,7 @@
 - The above response is telling you that the `README.md` file has not yet been **committed**. This means that although Git knows about the file, it doesn't yet have any of the file's contents stored. The simplest way to do a commit is by typing:
 
 	```bash
-	git commit -am 'add README.md'
+	git commit -am "add README.md"
 	```
 
 	This commits all changes you have made in the directory to the Git repo, and adds a message saying what you did. The message can be anything really, but it's best to keep it fairly short yet descriptive of what you changed.
